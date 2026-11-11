@@ -19,7 +19,7 @@ I am an aspiring IT networking professional currently studying for the Cisco Cer
 
 ## Networking Projects
 
-### Project 001: Small Office Network
+### [Project 001: Small Office Network](Project-001-Small-Office-Network/)
 
 **Platform:** Cisco Packet Tracer
 
@@ -34,6 +34,22 @@ Designed and configured a small office network consisting of one Cisco router, o
 - Documented network configurations and connectivity test results.
 
 **Project Status:** Completed
+
+### [Project 002: Multi-Switch Network](Project-002-Multi-Switch-Network/)
+
+**Platform:** Cisco Packet Tracer  
+**Status:** Completed
+
+Designed and configured a multi-switch office network consisting of three Cisco 2960 switches, one Cisco 2911 router, four workstations, and two departmental VLANs.
+
+**Key accomplishments:**
+- Configured VLANs across multiple Cisco switches.
+- Implemented IEEE 802.1Q trunking between switches.
+- Configured router-on-a-stick inter-VLAN routing.
+- Configured DHCPv4 pools with excluded address ranges.
+- Verified same-VLAN, gateway, and inter-VLAN connectivity.
+- Independently diagnosed and resolved a router-to-switch connectivity issue.
+- Documented network configurations and troubleshooting results.
 
 ## Career Goals
 
