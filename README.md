@@ -22,6 +22,7 @@ I am an aspiring IT networking professional currently studying for the Cisco Cer
 ### [Project 001: Small Office Network](Project-001-Small-Office-Network/)
 
 **Platform:** Cisco Packet Tracer
+**Status:** Completed
 
 Designed and configured a small office network consisting of one Cisco router, one Cisco switch, four workstations, and two departmental VLANs.
 
@@ -32,8 +33,6 @@ Designed and configured a small office network consisting of one Cisco router, o
 - Verified same-VLAN connectivity, default gateway reachability, and inter-VLAN communication.
 - Troubleshot and resolved a non-operational trunk connection.
 - Documented network configurations and connectivity test results.
-
-**Project Status:** Completed
 
 ### [Project 002: Multi-Switch Network](Project-002-Multi-Switch-Network/)
 
@@ -50,6 +49,22 @@ Designed and configured a multi-switch office network consisting of three Cisco 
 - Verified same-VLAN, gateway, and inter-VLAN connectivity.
 - Independently diagnosed and resolved a router-to-switch connectivity issue.
 - Documented network configurations and troubleshooting results.
+
+### [Project 003: Redundant Switch Network & STP](Project-003-Redundant-Switch-Network/)
+
+**Platform:** Cisco Packet Tracer  
+**Status:** Completed
+
+Designed and configured a redundant Layer 2 network using three Cisco 2960 switches, VLAN 10, and IEEE 802.1Q trunking. Configured a preferred STP root bridge and verified automatic failover during a simulated link failure.
+
+**Key accomplishments:**
+- Configured VLANs, access ports, and 802.1Q trunks.
+- Configured S1 as the preferred root bridge for VLAN 10.
+- Verified STP root, designated, and alternate port roles.
+- Analyzed STP path costs and topology changes.
+- Simulated a link failure and verified backup-path activation.
+- Confirmed successful PC-to-PC connectivity during failover.
+- Restored the original network topology and verified STP reconvergence.
 
 ## Career Goals
 
