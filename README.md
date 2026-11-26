@@ -11,10 +11,13 @@ I am an aspiring IT networking professional currently studying for the Cisco Cer
 - Cisco IOS CLI configuration
 - IPv4 addressing and subnetting
 - VLAN configuration and network segmentation
-- 802.1Q trunking
+- IEEE 802.1Q trunking
 - Inter-VLAN routing (Router-on-a-Stick)
-- DHCPv4 configuration
-- Network connectivity testing
+- DHCPv4 configuration and address exclusions
+- Static IPv4 addressing
+- Spanning Tree Protocol (STP) and network redundancy
+- Extended IPv4 ACL configuration and traffic filtering
+- ICMP connectivity testing and ACL verification
 - Network troubleshooting and documentation
 
 ## Networking Projects
@@ -65,7 +68,24 @@ Designed and configured a redundant Layer 2 network using three Cisco 2960 switc
 - Simulated a link failure and verified backup-path activation.
 - Confirmed successful PC-to-PC connectivity during failover.
 - Restored the original network topology and verified STP reconvergence.
+  
+### [Project 004: Secure Office Network & Extended ACLs](Project-004-Secure-Office-Network)
 
+Platform: Cisco Packet Tracer  
+Status: Completed
+
+Designed and configured a secure office network using a Cisco 2911 router, a Cisco 2960 switch, four workstations, and an internal server. Implemented VLAN segmentation, router-on-a-stick inter-VLAN routing, DHCPv4, and an extended ACL to restrict guest access to employee resources.
+
+Key accomplishments:
+- Configured VLAN 10 (STAFF) and VLAN 20 (GUEST) with IEEE 802.1Q trunking.
+- Implemented inter-VLAN routing using router subinterfaces.
+- Configured DHCPv4 pools with excluded address ranges.
+- Assigned a static IPv4 address to the internal server.
+- Created and applied an extended named ACL to restrict guest access to the STAFF network.
+- Verified security enforcement through connectivity testing and ACL match counters.
+- Analyzed ICMP Request Timed Out and Destination Unreachable responses to understand ACL direction and return traffic.
+- Documented network configurations, security testing, and troubleshooting results.
+  
 ## Career Goals
 
 My goal is to continue developing practical networking and troubleshooting skills while preparing for the CCNA certification and pursuing opportunities in IT networking and network administration.
